@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {Container} from './styles';
 import {GameItem, GameItemProps as Game} from "../index";
-import gameItem from "../gameItem/GameItem";
 
 
 const Games = () => {
