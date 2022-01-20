@@ -12,7 +12,7 @@ const GameItem = (props: GameItemProps) => {
 
     return (
         <Container onClick={ () => {
-            window.location.replace(homepage)
+            window.location.href = homepage
         }}>
             <TitleContainer>
                 <Title>{name}</Title>
