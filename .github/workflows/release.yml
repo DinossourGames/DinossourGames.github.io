@@ -20,11 +20,6 @@ jobs:
         
     - run: npm ci
     - run: npm run build --if-present
-    
-    - name: Install rsync 📚
-      run: |
-        apt-get install -y rsync
-        
     - name: Deploy to GitHub Pages 🚀
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
