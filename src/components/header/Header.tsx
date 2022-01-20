@@ -4,7 +4,7 @@ import {Container, Title} from './styles'
 const Header = () => {
     return (
         <Container>
-            <Title>Dinossour Games Builds</Title>
+            <Title>Dinossour Games</Title>
         </Container>
     );
 };
